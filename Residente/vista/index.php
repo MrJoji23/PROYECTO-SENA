@@ -44,7 +44,7 @@ $conn = conectarBD();
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $id = $_POST['ID'];
+    $id = $_POST['id'];
 
     $sql = "SELECT * FROM users WHERE ID = '$id'";
     $result = $conn->query($sql);
