@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CONTROL DE ACCESO DE USUARIOS</title>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="inicio.js" defer></script>
+    <link rel="stylesheet" href="estiloiniciosesion.css">
+    </head>
+    <body>
+        
+        <div class="formulario" >
+            <h2> INICIO DE SESION</h2>
+            <form action="/validar.php" method="post" onsubmit="return validar()">
+                <div class="username">
+                    <b><label>Numero de Identificacion </label></b>
+                    <input type="text" name="usuario">
+                    
+                </div>
+                <div class="username">
+                    <b><label>Contraseña</label></b>
+                    <input type="password" name="contraseña">
+                </input>        
+                </div>
+                <a class="button" href="#">Iniciar sesion</a><br><br>
+                ¿No tiene cuenta? registrate aqui! <br><br>
+                <a class="button" href="/Pagina/Registro_general/registro participantes.html">Registrese</a>  
+        </div>
+            </form>
+    </body>

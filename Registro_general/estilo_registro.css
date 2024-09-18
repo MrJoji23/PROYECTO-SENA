@@ -1,0 +1,70 @@
+body {
+    background-color: #333;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  nav {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .general {
+    position: relative;
+    box-shadow: 0 0px 20px 10px rgb(78, 70, 70);
+    width: 280px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 100px 20px 60px;
+    text-align: center;
+  }
+  
+  .titulo, .titulo2 {
+    text-align: center;
+    padding: 0 0 5px 0;
+    border-bottom: 2px solid rgb(56, 11, 36);
+    font-size: 20px;
+  }
+  
+  .botones {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  .botones:hover {
+    background-color: #45a049;
+  }
+  
+  .inicio {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  .inicio:hover {
+    background-color: #d32f2f;
+  }
+  

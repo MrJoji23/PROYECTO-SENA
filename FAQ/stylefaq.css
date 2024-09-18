@@ -1,0 +1,39 @@
+/*FAQ */
+
+.accordion {
+    background-color: #ffffff;
+    color: #504c4c;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+    border: 2px solid #737373;
+}
+.active, .accordion:hover {
+    background-color: darkgray;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    line-height: 20px;
+    font-size: 50px;
+}
+.panelaccordion {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panelaccordion p{
+    font-size: 22px;
+}

@@ -1,0 +1,60 @@
+body{
+      background-color: rgb(98, 98, 98);
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+}
+.formulario{
+      padding: 50px 50px 0px 50px;
+      justify-content: center;
+      height: 600px;
+      width: 500px;
+      border-color: beige;
+      background-color: rgba(87, 146, 77, 0.313);
+      border: 15px;
+      border-radius: 15px;
+      box-shadow: 0 8px 6px 2px #beb6b6;
+}
+.btn{
+      border: 2px;
+      padding: 2px 15px 15px 2px;
+      text-align: center;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+}
+.btn:hover{
+      box-shadow: 0 8px 6px 2px #ce8989;
+}
+
+
+input{
+      width: 100%;
+      padding: 10px 15px 15px 15px;
+      margin: 8px 8px 8px 8px;
+      box-sizing: border-box;
+      border: none;
+      background-color: #f1f1f1;
+      border-radius: 4px;
+      border: 6px;
+      background-color: rgb(204, 183, 157);
+
+}
+input[type=submit], input[type=reset]{
+      background-color: #000000;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+}
+input::placeholder{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: aliceblue;
+}

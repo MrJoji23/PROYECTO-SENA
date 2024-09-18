@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="aas.js"></script>
+      <link rel="stylesheet" href="style2.css">
+      <title>AAAA</title>
+</head>
+<body>
+     
+
+      <form method="post" action="" name="form" class="form" onsubmit="return Validar()" onreset="return Limpar()">
+            <H1>Digite su informacion</H1>
+            Numero de documento <input type="text" name="num" autocomplete="off" id="numero"  placeholder="Ingrese su documento"><br>
+            Nombres y Apellidos: <input type="text" name="nombre" placeholder="Ingrese datos" id="nombre" autocomplete="off"  ><br>
+            Digite su usuario: <input type="text" name="user" placeholder="Usuario" autocomplete="off" id="user"><br>
+            Ingrese su contrasena <input type="password" autocomplete="off" placeholder="Contrasena" id="contrasena" ><br>
+            Repita su contrasena <input type="password" autocomplete="off" placeholder="Contrasena" id="contrasena2" ><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar"onclick="return Limpiar()">
+      
+
+</form>
+</body>
+</html>

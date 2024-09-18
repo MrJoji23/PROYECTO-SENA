@@ -1,0 +1,113 @@
+body {
+    background-color: #333;
+    color: #ddd;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.formulario {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+.formulario h2 {
+    color: #000000;
+}
+
+.username {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.username label {
+    color: #000000;
+}
+
+.username input {
+    background-color: #d0d0d0;
+    border: none;
+    padding: 10px;
+    color: #333;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: calc(100% - 20px);
+}
+
+.formulario input[type="submit"]{
+    background-color: #000000;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: calc(100% - 20px);
+    display: block;
+    text-align: center;
+    text-decoration: none; 
+}
+
+.formulario input[type="button"]{
+    background-color: #000000;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: calc(100% - 20px);
+    display: block;
+    text-align: center;
+    text-decoration: none; 
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #686767;
+}
+
+.formulario input[type="button"]:hover {
+    background-color: #686767;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #bbb;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+
+
+

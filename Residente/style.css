@@ -1,0 +1,165 @@
+
+body{
+	background-image: url('fondo4.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: 1s ease-in-out;
+	 
+}
+
+
+h1{
+text-align: center;
+color: #315c08;
+font-family: 'Playfair Display', serif;
+}
+
+select{
+appearance: none;
+-webkit-appearance: none;
+outline:0;
+box-shadow: none;
+background: #c0b9b9b0;
+cursor: pointer;
+}
+
+select::after{
+	content: '\25BC';
+	position: absolute;
+	top: 0;
+}
+
+select::-ms-expand{
+	display: none;
+}
+
+input:hover{/*INPUT AGRANDADO*/
+	font-size: 125%;
+	transition: 0.3s;
+	color: #315c08;
+}
+
+
+
+.P1{ /*INPUT*/
+display: block;	
+margin-bottom: 15px;
+width: 500px;
+background-color: #e4e0e0;
+padding: 5px;
+border: 2px solid #000000;
+border-radius: 7px;
+font-family: 'calibri';
+font-size: 16px;
+border-radius: 25px;
+outline: none;
+}
+
+label{
+	color: rgb(0, 0, 0);
+	font: 1em sans-serif;
+}
+
+p{
+	color: rgb(0, 0, 0)
+}
+
+h4{
+	color: #000000;
+	text-align: center;
+}
+
+h2{
+    text-align: center;
+	color: #000000;   
+}
+
+h3{
+    text-align: center;
+    font-size: 20px;
+	color: #000000;
+}
+
+.P1 input:focus ~ label {
+	top:-5px;
+}
+
+.gen{
+    width: 500px;
+	background-color: #ffffff94;
+	padding: 15px;
+	margin: auto;
+	margin-top: 6px;
+	border-radius: 29px;
+	font-family: 'calibri';
+	color: #ffffff;
+}
+
+.opc{
+    font-size: 20px;
+	cursor: pointer;
+}
+
+.gen2{
+    font-size: 19px;
+	cursor: pointer;
+}
+
+.opc2{
+font-size: 17px;
+cursor: pointer;
+}
+
+.foto{
+	display: block;
+	cursor: pointer;
+}
+
+
+.P2{
+	width: 500px;
+	height: 50px;
+	border: 1px solid;
+	border-radius: 25px;
+	font-size: 15px;
+	color: #120849	;
+	cursor: pointer;
+	text-align: center;
+	margin: auto;
+	transition: color 0.4 linear;
+	position: relative;
+	text-transform: uppercase;
+	min-width: 200px;
+	align-items: center;
+}
+.P2:hover{
+color: #d41717;
+}
+.P2::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height:100%;
+	background: #2a84d7;
+	z-index: -1;
+	transition: transform 0.5s;
+	transform-origin: 0 0;
+	transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+.P2::before{
+	transform: scaleX(0);
+}
+.P2::hover::before{
+	transform: scaleX(1);
+}
+
+type{
+	color: grey;
+}
+::placeholder{
+	color:#000000
+}
